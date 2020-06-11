@@ -1,0 +1,71 @@
+@import './covid19.css';
+@import './Block/Block.css';
+@import './Chart/Chart.css';
+:root {
+    --gap-sm: 10px;
+    --gap-md: 20px;
+    --gap-lg: 50px;
+    --font-size-sm: 13px;
+    --neutral-dark-color: #2c2c2c;
+    --neutral-color: #aaa;
+}
+
+@media(max-width: 600px) {
+    :root {
+        --gap-lg: 30px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin: var(10px) 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+ul li {
+    list-style-type: none;
+    margin: var(10px) 0;
+}
+
+ol li {
+    margin: var(10px) 0;
+}
+
+button {
+    appearance: none;
+    min-width: 100px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}

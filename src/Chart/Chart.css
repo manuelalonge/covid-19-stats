@@ -1,0 +1,20 @@
+.Chart {
+  width: 100%;
+  max-width: 800px;
+  height: 70vh;
+}
+
+.Chart .recharts-cartesian-axis-tick-value, .Chart .recharts-legend-wrapper {
+  font-size: 20px;
+  fill: black;
+  color: black;
+}
+
+.Chart .recharts-cartesian-axis line {
+  stroke: var(--neutral-color);
+  stroke-width: 2px;
+}
+
+.Chart .recharts-cartesian-axis-tick line {
+  display: none;
+}
